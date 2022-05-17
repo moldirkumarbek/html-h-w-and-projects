@@ -1,0 +1,252 @@
+body{
+    margin:0 auto;
+    max-width: 1024px;
+    max-height: 1000px;
+    display: block;
+    font-weight:70;
+    font-family:Arial;
+}
+.log{
+    width:212px;
+    height:45px;
+}
+header nav {
+    padding:30px;
+    font-size: 14px;
+    line-height: 22px;
+    background-color:white;
+}
+header nav ul li{
+    display: inline;
+    text-decoration-color: black;
+    padding:4px;
+    position: relative;
+    top: 15px;
+    padding: 15px;
+}
+header nav ul li a{
+    text-decoration-line: none;
+    color: #000000;
+}
+main{
+    padding: 40px;
+    background-image:url( image.jpg);
+    height: 357px;
+    position: relative;
+
+}
+main h1{
+    color: white;
+    right: -144px;
+    font-size: 50px; position:relative;
+    line-height:60px;
+    top:60px;
+}
+main p{
+  color: white;
+  text-align: center;
+  font-size: 26px;
+  position:relative;
+  line-height:26px;
+  right: 0px;
+    top:20px;
+
+}
+
+.2{
+  background-color: #f1efec;
+  width: 352px;
+  height: 317px;
+  position:relative;
+  right: 0px;
+  top:0px;
+}
+.blockimg{
+  width: 100px;
+  height: 400px;
+  position:relative;
+  right: -40px;
+  top: 120px;
+}
+.blockimg1{
+ width: 250px;
+  height: 200px;
+  position: relative;
+  left: 352px;
+  top: -317px;
+}
+
+.text1
+{
+  background-color:#9b242d;
+  width: 352px;
+  height: 317px;
+  position: relative;
+  left: 732px;
+  top: -457px;
+  margin:-60px;
+}
+.text1 div h1
+{
+    color: white;
+    font-size: 30px;
+    line-height: 65px;
+}
+#Donate
+{
+    color:white;
+    height: 110px;
+    width: 560px;
+    padding: 20px;
+}
+#Donate h1{
+     color:white;
+    line-height: 40px;
+    position: relative;
+    right: -20px;
+    top:70px;
+}
+#p1{
+    color: white;
+    height: 110px;
+    width: 560px;
+    padding: 20px;
+    position: relative;
+    top:30px;
+}
+#donate h1{
+    color:white;
+    line-height: 40px;
+    position: relative;
+    right:-75px;
+    top:10px;
+   
+   
+}
+#p2{
+    position: relative;
+    right: 45px;
+  
+   
+}
+#b1{
+    color:white;
+    position: relative;
+    right: 53px;
+    top:-50px;
+     position: relative;
+     top: -2px;
+}
+.sig{
+  background-color: #46a651;
+  width: 672px;
+  height: 317px;
+  position: relative;
+  left: 0px;
+  top: -422px;
+}
+#donate{
+    color:white;
+    position: relative;
+    float: right;
+     top: 42px;
+}
+
+.button1{
+    position: relative;
+    right: -277px;
+    color:white;
+     height:35px;
+    width:120px;
+    background-color: #348e3e;
+}
+.part3{
+    width: 600px;
+  height: 300px;
+  position: relative;
+  left: 672px;
+  top: -739px;
+}
+.part4{
+ width: 630px;
+  height: 300px;
+  position: relative;
+  left: 0px;
+  top: -722px;
+}
+.face{
+  background-color: #3b5997;
+  width: 352px;
+  height: 316px;
+  position: relative;
+  left: 672px;
+  top: -1022px;
+}
+.part5{
+    margin-left: 170px;
+    top:90px;
+    left: -37px;
+    position: relative;
+    padding-right: 32px;
+    padding-left: 32px;
+}
+#like{
+    color: white;
+     position: relative;
+    left: -20px;
+  top: 10px;
+}
+.finish nav
+{
+    padding:30px;
+    font-size: 15px;
+    line-height: 22px;
+    background-color:#373838;
+        
+  text-align: center;
+         
+ position: relative;
+    margin: -1022px;
+    width: 964px;
+    font:left;
+    left: 1022px;
+   
+}
+.finish nav ul li{
+    display: inline;
+    text-decoration-color:wheat;
+    padding:4px;
+      font:left;
+    left: 1024px;
+   
+}
+.finish nav ul li a
+{
+     text-decoration-color:wheat;
+    text-decoration-line: none;
+    color: #939393;
+      position: relative;
+   
+    font:left;
+    left: 70px;
+}
+
+footer nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+footer nav li{
+    
+
+    float: left;
+    margin-left: 30px;
+}
+footer nav li a{
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    
+}
