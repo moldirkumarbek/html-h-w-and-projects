@@ -1,0 +1,77 @@
+.child1{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            position: relative;
+            top: 50px;
+            left: 50px;
+            background-size: 100% 30px;
+            clip-path: circle(50px at 50px 50px);
+        }
+.orange{
+    width:20px;
+    height: 150px;
+    background-color:orange;
+    float: left;
+}
+.yellow{
+    width:20px;
+    height: 150px;
+    background-color:yellow;
+    float: left;
+}
+.blue{
+    width:20px;
+    height: 150px;
+    background-color:blue;
+    float: left;
+}
+.green{
+    width:20px;
+    height: 150px;
+    background-color:green;
+    float: left;
+}
+.red{
+    width:20px;
+    height: 150px;
+    background-color:red;
+    float: left;
+}
+.child2{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            position: relative;
+            top: 50px;
+            left: 50px;
+            background-size: 100% 30px;
+            clip-path: circle(50px at 50px 50px);
+            transform: rotate(20deg);
+}
+.child3{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            position: relative;
+            top: 50px;
+            left: 50px;
+            background-size: 100% 30px;
+            clip-path: circle(50px at 50px 50px);
+            transform: rotate(120deg); 
+}
+.p1{
+    border: 1px solid blue;
+}
+.p2{
+    border: 1px solid blue;
+}
+.p3{
+    border: 1px solid blue;
+}
+.p4{
+    border: 1px solid blue;
+}
+.p5{
+    border: 1px solid blue;
+}
