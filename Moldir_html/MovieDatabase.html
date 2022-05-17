@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+var myMovie = {
+    title: '"Harry Potter',
+    duration: 30,
+    stars: ['Daniel', 'Radcliffe']
+};
+
+function printMovie(movie) {
+    console.log(movie.title + 'lasts for ' + movie.duration + ' minutes.');
+    var starsString = 'Stars: ';
+    for (var i = 0; i < movie.stars.length; i++) {
+        starsString += movie.stars[i];
+        if (i != movie.stars.length -1) {
+            starsString += ', ';
+        }
+    }
+    console.log(starsString);
+}    
+printMovie(myMovie); 
+</script>
+</body>
+</html>

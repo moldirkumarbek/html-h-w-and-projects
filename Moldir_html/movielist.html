@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+var movielist = [{
+title:'The Kazakh Khanate',
+    director: ' Рустем Жарасканович Абдрашев ',
+    alreadyWatched: true
+},
+    {
+    title: 'Томирис',
+    director:' Акан Сатаев',
+    alreadyWatched: false
+}];
+    for (var i = 0; i < movielist.length; i++) {
+  var movielists = movielist[i];
+  var MovieInfo = movielist.title + '" by ' + movielist.director;
+  if (movielist.alreadyWatched) {
+    console.log('You already watch "' + MovieInfo);
+  }
+        else {
+    console.log('You still need to watch "' + MovieInfo);
+  }
+    </script>
+</body>
+</html>

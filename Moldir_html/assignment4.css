@@ -1,0 +1,24 @@
+body{
+   max-width: 500px;
+   display:block;
+   margin:0 auto;  
+}
+.heading h1{
+    text-align:center;
+    width: inherit;
+    height: inherit;
+    border: 3px blue;
+    border-radius: 25px;
+    color:blueviolet;
+}
+#enter{
+    margin-top: 20%;
+    margin-left: 40%;
+    color: firebrick;
+    outline:transparent;
+    box-shadow: 8px 8px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 20px;
+    
+}

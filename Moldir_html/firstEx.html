@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>The * Operator</h2>
+<p id="demo"></p>
+<script>
+var x = -9;
+var y = 3;
+var z = x * y;
+document.getElementById("demo").innerHTML = z;
+</script>
+    <h2>Practice2</h2>
+<p id="demo"></p>
+<script>
+var x = "value is ";
+var y = 50;
+var z = x + y;
+document.getElementById("demo").innerHTML = z;
+</script>
+<h2>The % Operator</h2>
+<p id="demo"></p>
+<script>
+var x = 17;
+var y = 5;
+var z = x % y;
+document.getElementById("demo").innerHTML = z;
+</script>
+<h2>The % Operator</h2>
+<p id="demo"></p>
+<script>
+var x = 5;
+var y = 17;
+var z = x % y;
+document.getElementById("demo").innerHTML = z;
+</script>
+<h2>The / Operator</h2>
+<p id="demo"></p>
+<script>
+var x = 5;
+var y = 10;
+var z = x / y;
+document.getElementById("demo").innerHTML = z;
+</script>
+<h2>JavaScript Comparison</h2>
+<p>Assign 4 to x, and display the value of the comparison (x == 4):</p>
+<p id="demo"></p>
+<script>
+var x = 4;
+document.getElementById("demo").innerHTML = (x == 4);
+</script>
+<h2>JavaScript Comparison</h2>
+<p>Assign 4 to x, and display the value of the comparison (x != 5):</p>
+<p id="demo"></p>
+<script>
+var x = 4;
+document.getElementById("demo").innerHTML = (x != 5);
+</script>
+<h2>JavaScript Comparison</h2>
+<p>Assign 7 to x, and display the value of the comparison (x <= 8):</p>
+<p id="demo"></p>
+<script>
+var x = 7;
+document.getElementById("demo").innerHTML = (x <= 8);
+</script>
+<h2>Practice2</h2>
+<p id="demo"></p>
+<script>
+var z = Math.ceil(x)-Math.floor(x);
+document.getElementById("demo").innerHTML = z;
+</script>
+    <h2>binary numbers into decimal numbers 1</h2>
+<script type="text/javascript">
+    var binary = "110111";
+var decimal = parseInt(binary, 2);
+alert(decimal);
+  </script>
+    <h2>binary numbers into decimal numbers 2</h2>
+<script type="text/javascript">
+    var binary = "101011";
+var decimal = parseInt(binary, 2);
+alert(decimal);
+  </script>
+   <h2>binary numbers into decimal numbers 3</h2> 
+<script type="text/javascript">
+    var binary = "10100";
+var decimal = parseInt(binary, 2);
+alert(decimal);
+  </script>
+    <h2>13</h2>
+<script type="text/javascript">
+    alert("Hello World");</script>
+    <h2>14</h2>
+<form>
+1st Number : <input type="text" id="firstNumber" /><br>
+2nd Number: <input type="text" id="secondNumber" /><br>
+<input type="button" onClick="multiply()" Value="Multiply" />
+</form>
+<p>The Result is : <br>
+<span id = "result"></span>
+</p>
+<script>
+function multiply()
+{
+        num1 = document.getElementById("firstNumber").value;
+        num2 = document.getElementById("secondNumber").value;
+        document.getElementById("result").innerHTML = num1 * num2;
+}
+</script>
+    <h2>15</h2>
+<script>
+var n = prompt("Please enter a number.");
+           alert("Your number is "+ n);
+</script>
+<h2>16</h2>
+
+<p>Sum of two numbers is:</p>
+<p id="demo"></p>
+<script>
+const num1 = parseInt(prompt('Enter the first number '));
+const num2 = parseInt(prompt('Enter the second number '));
+document.getElementById("demo").innerHTML = num1 + num2;
+</script>
+<h2>17</h2>
+    <p>Click the button to get the largest number.</p>
+<button onclick="myFunction()">Larger number is:</button>
+<p id="demo"></p>
+<script>
+const num1 = parseInt(prompt('Enter the first number '));
+const num2 = parseInt(prompt('Enter the second number '));
+
+var points = [num1, num2];
+document.getElementById("demo").innerHTML = points;
+
+function myFunction() {
+  points.sort(function(a, b){return b-a});
+  document.getElementById("demo").innerHTML = points[0];
+}
+</script>
+<h2>18</h2>
+    <p>Click the button to sort the numbers in ascending order.</p>
+<button onclick="myFunction()">sort in ascending order</button>
+<p id="demo"></p>
+<script>
+const num1 = parseInt(prompt('Enter the first number '));
+const num2 = parseInt(prompt('Enter the second number '));
+
+var points = [num1, num2];
+document.getElementById("demo").innerHTML = points;
+
+function myFunction() {
+  points.sort(function(a, b){return a-b});
+  document.getElementById("demo").innerHTML = points;
+}
+</script>
+<h2>19</h2>
+    <script>
+    for (var i=0; i<=5; i++)
+       {
+           alert(i);
+       } 
+
+    </script>
+    <h2>20</h2>
+    <script>
+    for (var i=9; i>=0; i--) {
+        alert(i);
+    } 
+    </script>
+    <h2>21</h2>
+    <script>
+    for (var i=0; i<=20; i++)
+{ 
+if (i%3==0)
+alert(i); 
+}
+
+    </script>
+    <h2>22</h2>
+    <script>
+    for (var i=9; i>=0; i--) {
+        alert(i);
+    } 
+    </script>
+    <h2>23</h2>
+    <script>
+    var n = prompt("Please enter a number in the range 0...100"); 
+while (n<0 || n>100)
+{ 
+alert(n +" is out. Please, try again.");
+n = prompt("Please enter a number in the range 0...100"); 
+}
+
+    </script>
+</body>
+</html>
